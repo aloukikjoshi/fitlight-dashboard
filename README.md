@@ -10,10 +10,6 @@ Welcome to the **FitLight Dashboard** repository! This project is a modern, resp
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation and Setup](#installation-and-setup)
-- [Project Structure](#project-structure)
-- [Configuration and Scripts](#configuration-and-scripts)
-- [Development Guidelines](#development-guidelines)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact & Acknowledgements](#contact--acknowledgements)
 
@@ -97,55 +93,6 @@ This project uses a robust set of libraries and tools to ensure a smooth develop
    ```
 
 Now, open your browser at `http://localhost:3000` (or the port provided in your terminal) and enjoy the live reload feature as you work on the project!
-
----
-
-## Project Structure
-
-Here's a comprehensive overview of the project structure:
-
-```plaintext
-fitlight-dashboard/
-├── public/                   # Static files such as images and favicon
-├── src/
-│   ├── components/           # Reusable UI components
-│   │   ├── ui/               # Base UI components (buttons, cards, etc.)
-│   │   ├── layout/           # Layout components (headers, footers, etc.)
-│   │   ├── charts/           # Data visualization components
-│   │   ├── forms/            # Form components and validation
-│   │   └── dashboard/        # Dashboard-specific components
-│   ├── pages/                # Page level components & layouts
-│   │   ├── Dashboard/        # Main dashboard page
-│   │   ├── Analytics/        # Analytics and reporting page
-│   │   ├── Profile/          # User profile page
-│   │   └── Settings/         # Application settings page
-│   ├── hooks/                # Custom React hooks for state management
-│   ├── contexts/             # React context providers
-│   ├── utils/                # Utility functions and helpers
-│   │   ├── api.ts            # API integration utilities
-│   │   ├── formatters.ts     # Data formatting utilities
-│   │   └── validators.ts     # Input validation utilities
-│   ├── styles/               # Global styles and TailwindCSS configuration
-│   │   ├── globals.css       # Global CSS styles
-│   │   └── themes/           # Theme definitions
-│   ├── types/                # TypeScript type definitions
-│   ├── constants/            # Application constants and configuration
-│   ├── app.tsx               # Main application component
-│   ├── main.tsx              # Application entry point
-│   └── router.tsx            # Application routing
-├── .eslintrc.js              # ESLint configuration
-├── .prettierrc.js            # Prettier configuration
-├── postcss.config.js         # PostCSS configuration
-├── tailwind.config.js        # TailwindCSS configuration
-├── tsconfig.json             # TypeScript configuration
-├── vite.config.ts            # Vite configuration
-├── package.json              # Project dependencies and scripts
-├── package-lock.json         # Locked dependencies
-├── README.md                 # Project documentation (you're here!)
-└── LICENSE                   # Project license
-```
-
-> This structure ensures the project remains well-organized and scalable as new features and components get added.
 
 ---
 
