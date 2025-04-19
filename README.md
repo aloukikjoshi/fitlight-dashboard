@@ -92,7 +92,7 @@ This project uses a robust set of libraries and tools to ensure a smooth develop
    npm run dev
    ```
 
-Now, open your browser at `http://localhost:3000` (or the port provided in your terminal) and enjoy the live reload feature as you work on the project!
+Now, open your browser at `http://localhost:8080` (or the port provided in your terminal) and enjoy the live reload feature as you work on the project!
 
 ---
 
