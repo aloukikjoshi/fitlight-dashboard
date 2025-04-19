@@ -102,8 +102,8 @@ This project is licensed under the [Apache License 2.0](LICENSE). You are free t
 
 ---
 
-## Contact & Acknowledgements
+## Contact
 
-- **Project Maintainer:** [Aloukik Joshi](mailto:aloukikjoshi@gmail.com)
+**Project Maintainer:** [Aloukik Joshi](mailto:aloukikjoshi@gmail.com)
 
 Feel free to reach out if you have any questions or need further assistance. Happy coding! 🚀
